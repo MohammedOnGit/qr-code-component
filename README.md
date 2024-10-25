@@ -25,8 +25,8 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Solution URL](https://github.com/MohammedOnGit/qr-code-component)
+- Live Site URL: [Live site URL](https://mohammedongit.github.io/qr-code-component/)
 
 ## My process
 
@@ -40,13 +40,8 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
+Working on this project, I gained practical experience with setting up custom fonts using the @font-face rule in CSS. I followed Kevin Powell's approach, which emphasizes simplicity and efficiency in managing web fonts. By defining multiple @font-face declarations, I could set specific font weights and fallback fonts, ensuring compatibility across different devices. This setup enhances accessibility and performance, aligning with best practices for modern web design.
 
-To see how you can add code snippets, see below:
-
-```html
-<h1>Some HTML code I'm proud of</h1>
-```
 ```css
 @font-face {
   font-family: "Outfit";
@@ -57,23 +52,13 @@ To see how you can add code snippets, see below:
 
 ### Continued development
 
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
-
+I would like to continue learning about responsive web design.
 
 ### Useful resources
 
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
+- [Example resource 1](https://www.example.com) - This helped me to add custom fonts to my project using the @font-face CSS  property.
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
+- Frontend Mentor - [@MohammedOnGit](https://www.frontendmentor.io/profile/MohammedOnGit)
 
-**Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
-
-## Acknowledgments
-
-This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.
-
-**Note: Delete this note and edit this section's content as necessary. If you completed this challenge by yourself, feel free to delete this section entirely.**

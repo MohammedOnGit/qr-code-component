@@ -24,13 +24,10 @@
   padding: 0;
   box-sizing: border-box;
 }
- body{
-  font-family: "Outfit" Arial, sans-serif;
- }
-/* body{
-  max-width: 100%;
-  min-height: 100%;
-} */
+body {
+  font-family: "Outfit", Arial, sans-serif;
+}
+
 .container {
   background-color: var(--Slate-300);
   display: flex;
