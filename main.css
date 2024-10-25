@@ -29,7 +29,48 @@
   box-sizing: border-box;
 }
 
+.container {
+  background-color: var(--Slate-300);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
+.qr_card {
+  height: 499;
+  width: 320;
+  background-color: var(--white);
+  border-radius: 20px;
+  padding: 16px 16px 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.qr_container {
+  width: 288px;
+  height: 288px;
+}
+
+.qr_text {
+  width: 288px;
+  height: 131px;
+  margin-top: 12px;
+  padding-left: 16px;
+  padding-right: 16px;
+
+}
+
+img {
+  height: 288px;
+  width: 288px;
+}
+
+.qr_header {
+  width: 256px;
+  height: 52px;
+}
 
 .attribution {
   font-size: 11px;
@@ -42,49 +83,36 @@
 
 
 /* Extra small devices (phones, less than 576px) */
-@media (max-width: 575.98px) { 
-  .container{
+@media (max-width: 575.98px) {
+  .container {
     max-width: 375px;
     overflow: hidden;
-    /* height: 100svh; */
     height: 812px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: var(--Slate-300);
   }
-  .qr_card{
-  max-width: 320px;
-  max-height: 499px;
-  padding: 16px 16px 40px;
+
+  .qr_card {
+    max-width: 320px;
+    max-height: 499px;
   }
-  
-  img{
-    
+
+  img {
+
     width: 100%;
     height: 100%;
   }
-  .qr_container{
-    width: 288px;
-    height: 288px;
+
+  .qr_container {
+
     margin-bottom: 12px;
   }
-  .qr_text{
-    width: 288px;
-    height: 131px;
-    margin-top: 12px;
-    padding-left: 16px;
-    padding-right: 16px;
-    
 
-  }
-  h1{
+
+  h1 {
     line-height: 25px;
   }
 
-  .qr_header{
-    width: 256px;
-    height: 52px;
+  .qr_header {
+
     margin-bottom: 29px;
     text-align: center;
     font-size: 11px;
@@ -94,7 +122,8 @@
     font-weight: 700;
     line-height: 17px;
   }
-  .qr_paragraph{
+
+  .qr_paragraph {
     width: 256px;
     height: 63px;
     margin-top: 16px;
@@ -103,33 +132,91 @@
     font-family: "Outfit";
     font-weight: 400;
     text-align: center;
-   
-    
+
+
   }
-  p{
-   font-size:  15px;
-   letter-spacing: 0.2px;
-   line-height: 21px;
+
+  p {
+    font-size: 15px;
+    letter-spacing: 0.2px;
+    line-height: 21px;
   }
- 
+
 }
 
 /* Small devices (phones, 576px and up) */
-@media (min-width: 576px) and (max-width: 767.98px) { 
-}
+@media (min-width: 576px) and (max-width: 767.98px) {}
 
 /* Medium devices (tablets, 768px and up) */
-@media (min-width: 768px) and (max-width: 991.98px) { 
-}
+@media (min-width: 768px) and (max-width: 991.98px) {}
 
 /* Large devices (desktops, 992px and up) */
-@media (min-width: 992px) and (max-width: 1199.98px) { 
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .container{
+    max-width: 1199px;
+  }
 }
 
 /* Extra large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) and (max-width: 1399.98px) { 
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+  .container{
+    max-width: 1399px;
+  }
 }
 
 /* XX-Large devices (very large desktops, 1400px and up) */
-@media (min-width: 1400px) { 
+@media (min-width: 1400px) {
+  .container {
+    max-width: 1440px;
+    width: 1440;
+    height: 966px;
+  }
+
+  .qr_card {
+    width: 320px;
+    height: 499px;
+    padding-top: 0px;
+    margin-top: 10px;
+  }
+
+  img {
+
+    width: 101%;
+    height: 100.5%;
+    border-radius: 10px;
+  }
+
+  .qr_header {
+    height: 52px;
+  }
+
+  h1 {
+    font-family: "Outfit";
+    padding-top: 11px;
+    font-size: 22px;
+    font-weight: 700;
+    text-align: center;
+    line-height: 27px;
+  }
+
+  p {
+    padding-top: 14px;
+    font-family: "Outfit";
+    font-weight: 400;
+    text-align: center;
+    font-size: 15px;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+  }
+
+  .qr_text {
+    margin-top: 12px;
+    height: 131px;
+  }
+
+  .qr_header {
+    margin-bottom: 16px;
+    text-align: center;
+  }
+
 }
