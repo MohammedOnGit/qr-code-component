@@ -1,19 +1,15 @@
-@font-face {
-  font-family: "Outfit";
-  font-weight: 400;
-  src: url("assets/fonts/static/Outfit-Medium.ttf"), format('truetype');
-}
 
 @font-face {
   font-family: "Outfit";
   font-weight: 400;
-  src: url("assets/fonts/Outfit-VariableFont_wght.ttf") format('truetype');
+  src: url("/assets/fonts/static/Outfit-Regular.ttf"), format('truetype');
 }
+
 
 @font-face {
   font-family: "Outfit";
   font-weight: 700;
-  src: url("assets/fonts/static/Outfit-Bold.ttf"), format('truetype');
+  src: url("/assets/fonts/static/Outfit-Bold.ttf"), format('truetype');
 }
 
 :root {
@@ -28,7 +24,13 @@
   padding: 0;
   box-sizing: border-box;
 }
-
+ body{
+  font-family: "Outfit" Arial, sans-serif;
+ }
+/* body{
+  max-width: 100%;
+  min-height: 100%;
+} */
 .container {
   background-color: var(--Slate-300);
   display: flex;
@@ -37,8 +39,8 @@
 }
 
 .qr_card {
-  height: 499;
-  width: 320;
+  height: 499px;
+  width: 320px;
   background-color: var(--white);
   border-radius: 20px;
   padding: 16px 16px 40px;
@@ -109,6 +111,7 @@ img {
 
   h1 {
     line-height: 25px;
+    font-family: "Outfit";
   }
 
   .qr_header {
@@ -137,6 +140,8 @@ img {
   }
 
   p {
+    font-family: "Outfit";
+    font-weight: 400;
     font-size: 15px;
     letter-spacing: 0.2px;
     line-height: 21px;
@@ -148,12 +153,19 @@ img {
 @media (min-width: 576px) and (max-width: 767.98px) {}
 
 /* Medium devices (tablets, 768px and up) */
-@media (min-width: 768px) and (max-width: 991.98px) {}
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .container{
+    max-width: 991.98px;
+    width: 100%;
+  }
+}
+
 
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) and (max-width: 1199.98px) {
   .container{
     max-width: 1199px;
+    width: 100%;
   }
 }
 
@@ -161,6 +173,7 @@ img {
 @media (min-width: 1200px) and (max-width: 1399.98px) {
   .container{
     max-width: 1399px;
+    width: 100%;
   }
 }
 
@@ -168,7 +181,7 @@ img {
 @media (min-width: 1400px) {
   .container {
     max-width: 1440px;
-    width: 1440;
+   width: 100%;
     height: 966px;
   }
 
@@ -191,7 +204,6 @@ img {
   }
 
   h1 {
-    font-family: "Outfit";
     padding-top: 11px;
     font-size: 22px;
     font-weight: 700;
@@ -201,7 +213,6 @@ img {
 
   p {
     padding-top: 14px;
-    font-family: "Outfit";
     font-weight: 400;
     text-align: center;
     font-size: 15px;
